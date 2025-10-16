@@ -142,7 +142,7 @@ endereco-inteligente/
 
 ## 👤 Autor
 
-Desenvolvido como atividade acadêmica.
+Desenvolvido como atividade acadêmica por Henrique Silva Franco.
 
 ## 📄 Licença
 
