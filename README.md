@@ -11,19 +11,23 @@ Aplicação web desenvolvida para cadastro de endereços com validações em tem
 ### Campos do Formulário
 
 - **CEP** (obrigatório)
+
   - Formatação automática: `00000-000`
   - Validação com regex usando grupos de captura
   - Aceita apenas números
 
 - **Logradouro** (obrigatório)
+
   - Mínimo de 5 caracteres
   - Validação de campo vazio
 
 - **Número** (obrigatório)
+
   - Aceita apenas dígitos numéricos
   - Validação com regex
 
 - **UF** (obrigatório)
+
   - Exatamente 2 letras maiúsculas
   - Conversão automática para maiúsculo durante digitação
   - Validação com regex
@@ -57,11 +61,13 @@ Aplicação web desenvolvida para cadastro de endereços com validações em tem
 ### Instalação
 
 1. Clone o repositório:
+
 ```bash
 git clone https://github.com/henriqfranco/endereco-inteligente.git
 ```
 
 2. Navegue até o diretório:
+
 ```bash
 cd endereco-inteligente
 ```
@@ -70,7 +76,7 @@ cd endereco-inteligente
 
 ### Uso
 
-1. Preencha todos os campos obrigatórios (marcados com *)
+1. Preencha todos os campos obrigatórios (marcados com \*)
 2. O CEP será formatado automaticamente enquanto você digita
 3. A UF será convertida para maiúsculo automaticamente
 4. Clique em "Cadastrar Endereço"
@@ -105,18 +111,22 @@ endereco-inteligente/
 ## 📝 Exemplos de Uso
 
 ### CEP
+
 - ✅ Válido: `12345-678`
 - ❌ Inválido: `12345678`, `123-45678`, `abcde-fgh`
 
 ### Logradouro
+
 - ✅ Válido: `Rua das Flores`, `Avenida Paulista`
 - ❌ Inválido: `Rua`, `Av.` (menos de 5 caracteres)
 
 ### Número
+
 - ✅ Válido: `123`, `4567`, `1`
 - ❌ Inválido: `12A`, `número 5`, `s/n`
 
 ### UF
+
 - ✅ Válido: `SP`, `RJ`, `MG`, `RS`
 - ❌ Inválido: `sp`, `São`, `S`, `SPaulo`
 
